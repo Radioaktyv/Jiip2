@@ -3,4 +3,4 @@ project(lab1_zad_dom)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab1_zad_dom main.cpp)
+add_executable(lab1_zad_dom main.cpp include/calc.cpp include/calc.h)
