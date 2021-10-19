@@ -25,8 +25,9 @@ int volume(char** argv){
 void help(){
     cout << "Simple calculator" << endl << "simpleCalc [nazwa dzialania]" << endl;
     cout << "Dzialania:"<< endl;
-    cout << "add [a] [b]" << endl << "\t Dodawanie dwoch liczb ([a] i [b]) całkowitych." << endl;
-    cout << "substract [a] [b]" << endl << "\t Odejmowanie dwóch liczb ([a] i [b]) całkowitych." << endl;
+    cout << "add [a] [b]" << endl << "\t Dodawanie dwoch liczb ([a] i [b]) calkowitych." << endl;
+    cout << "substract [a] [b]" << endl << "\t Odejmowanie dwoch liczb ([a] i [b]) calkowitych." << endl;
     cout << "volume [a] [b] [h] [H]" << endl << "\t Oblicznanie objetosci graniastoslupa z trapezem u podstawy."<<
          endl <<"\t Gdzie [a] i [b] to podstawy trapezu, [h] wysokosc trapezu, [H] wysokosc graniastoslupa" << endl;
+    cout << "help" << endl << "\t wyswietla dokumentacje";
 }

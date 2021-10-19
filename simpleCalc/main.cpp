@@ -13,7 +13,7 @@ int main(int argc, char** argv)
        if (wynik != -1) cout << wynik;
     }
 
-    else if (string(argv[1])== "help")
+    else if (string(argv[1])== "help" && argc == 2)
     help();
     else
     {
