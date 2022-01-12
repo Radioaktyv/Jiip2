@@ -293,7 +293,8 @@ void help() {
     cout << "matrixIsDiagonal" << endl << "\t Sprawdzenie czy macierz jest diagonalna" << endl;
     cout << "sortRow" << endl << "\t Posortowanie wybranego wiersza. (Liczba 1 odpowiada pierwszemu wierszowi)"<< endl;
     cout << "sortRowsInMatrix" << endl<< "\t Posorowanie wszystkich wierszy w macierzy" << endl;
-    cout << "help" << endl << "\t wyswietla dokumentacje";
+    cout << "generate" << endl << "\t Po kazdym z wyzej wymienionych argumentow mozna rowniez wpisac agrument generate, dzieki ktoremu wartosci tablicy zostana losowo wygenerowane."<< endl;
+    cout << "help" << endl << "\t wyswietla dokumentacje"<< endl;
 }
 
 void matrixDel(int **matrix,int k) {
